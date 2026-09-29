@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4f7;
+}
+
+/* Header */
+header {
+    background-color: #f8c8d8;
+    color: #6d4350;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+header p {
+    margin: 5px;
+    color: #85616c;
+}
+
+/* Navigation */
+nav {
+    background-color: #fff0b8;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    border-bottom: 2px solid #f6d98b;
+}
+
+nav a {
+    color: #7d5965;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e58ba5;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 28px;
+    border: 2px solid #f4c5d4;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(220, 150, 170, 0.15);
+}
+
+/* Form Title */
+.form-container h2 {
+    text-align: center;
+    color: #d97898;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #6d5960;
+    font-weight: bold;
+}
+
+/* Text Input */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    box-sizing: border-box;
+    border: 1px solid #edc5d1;
+    border-radius: 7px;
+    background-color: #fffafb;
+    outline: none;
+}
+
+/* Input Focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #e9a3b9;
+    background-color: #fff6f9;
+}
+
+/* Radio & Checkbox */
+.radio-group,
+.checkbox-group {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff8d9;
+    border: 1px solid #f2df9b;
+    border-radius: 8px;
+}
+
+/* Labels inside option groups */
+.radio-group label,
+.checkbox-group label {
+    display: inline;
+    margin: 0 15px 0 3px;
+    font-weight: normal;
+    color: #6d5960;
+}
+
+/* Checkbox & Radio accent */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #e89ab2;
+}
+
+/* Address */
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    display: block;
+    width: 65%;
+    margin: 22px auto 0;
+    padding: 11px 25px;
+    background-color: #f4b8c9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #e795ae;
+}
+
+/* Footer */
+footer {
+    background-color: #f8c8d8;
+    color: #6d4350;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+
+    .form-container {
+        width: 100%;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    input[type="submit"] {
+        width: 75%;
+    }
+}

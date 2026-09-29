@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Registration Form</h1>
+        <p>Student Registration</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Registration</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <div class="form-container">
+
+            <h2>Registration</h2>
+
+            <form action="#" method="post">
+
+                <!-- Full Name -->
+                <label for="fullname">Full Name</label>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <!-- Phone Number -->
+                <label for="phone">Phone Number</label>
+                <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+                <!-- Gender -->
+                <label>Gender</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+
+                <!-- Hobbies -->
+                <label>Hobbies</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="baking" name="hobbies" value="Baking">
+                    <label for="baking">Baking</label>
+
+                    <input type="checkbox" id="watching-series" name="hobbies" value="Watching series and movies">
+                    <label for="watching-series">Watching series and movies</label>
+
+                    <input type="checkbox" id="music" name="hobbies" value="Music">
+                    <label for="music">Music</label>
+
+                    <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+                    <label for="gaming">Gaming</label>
+                </div>
+
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth</label>
+                <input
+                    type="date"
+                    id="dob"
+                    name="dob"
+                    required
+                >
+
+                <!-- Program of Study -->
+                <label for="program">Program of Study</label>
+                <select id="program" name="program" required>
+                    <option value="">-- Select Program --</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Information Systems">Information Systems</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Business Management">Business Management</option>
+                    <option value="Accounting">Accounting</option>
+                </select>
+
+                <!-- Full Address -->
+                <label for="address">Full Address</label>
+                <textarea
+                    id="address"
+                    name="address"
+                    placeholder="Enter your full address"
+                    required
+                ></textarea>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Register">
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Khalisa Shadrina Vasthi</p>
+    </footer>
+
+</body>
+</html>
